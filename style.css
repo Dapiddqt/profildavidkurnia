@@ -1,0 +1,43 @@
+/* CONTAINER UTAMA */
+.page-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* SECTION */
+.skills,
+.experience {
+  margin-bottom: 70px;
+}
+
+/* JUDUL */
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+}
+
+/* GARIS BIRU */
+.section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 5px;
+  height: 80%;
+  background: #2563eb;
+  border-radius: 4px;
+}
+
+/* CARD */
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -21,3 +21,4 @@
 - [x] Restructure "Keahlian & Minat" section to paragraph format
 - [x] Restructure "Pengalaman" section to paragraph format
 - [x] Update navigation menu to include new section
+- [x] Add profile photo to header section

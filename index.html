@@ -170,7 +170,8 @@
     header {
       padding: 80px 20px;
       text-align: center;
-      background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+      background: url('coding_background.jpg') no-repeat center center;
+      background-size: cover;
       color: white;
       border-bottom: 1px solid #e5e7eb;
       position: relative;
@@ -189,8 +190,8 @@
     }
 
     .profile-img {
-      width: 140px;
-      height: 140px;
+      width: 170px;
+      height: 170px;
       border-radius: 50%;
       object-fit: cover;
       border: 4px solid #ffffff;
@@ -201,17 +202,31 @@
     }
 
     header h1 {
-      font-size: 2.6rem;
+      font-size: 2.2rem;
       margin: 10px 0;
       position: relative;
       z-index: 2;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 8px 16px;
+      border-radius: 8px;
+      display: block;
+      text-align: center;
+      width: fit-content;
+      margin: 10px auto;
     }
 
     header p {
-      font-size: 1.1rem;
-      color: #e0e7ff;
+      font-size: 1rem;
+      color: #ffffff;
       position: relative;
       z-index: 2;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 4px 12px;
+      border-radius: 6px;
+      display: block;
+      text-align: center;
+      width: fit-content;
+      margin: 10px auto;
     }
 
     main {
@@ -400,7 +415,7 @@
 </nav>
 
 <header>
-  <img src="profile.jpg" alt="Foto profil David Kurnia Rahman, seorang technology enthusiast" class="profile-img">
+  <img src="FOTO_DAVID_KURNIA-removebg-preview.png" alt="Foto profil David Kurnia Rahman, seorang technology enthusiast" class="profile-img">
   <h1>David Kurnia Rahman</h1>
   <p>Personal Website | Technology Enthusiast</p>
 </header>
@@ -410,7 +425,7 @@
     <h2>Tentang Saya</h2>
     <div class="card">
       <p>
-        Saya adalah individu yang tertarik pada teknologi, website, dan pengembangan sistem.
+        Saya merupakan seorang fresh graduate dari jurusan teknik informatika, saya individu yang tertarik pada teknologi, website, dan pengembangan sistem.
         Website ini dibuat sebagai profil profesional dan tempat berbagi perjalanan belajar saya.
         Saya percaya bahwa pembelajaran mandiri adalah kunci untuk berkembang di era digital ini.
       </p>
@@ -421,8 +436,8 @@
     <h2>Riwayat Pendidikan</h2>
     <div class="card">
       <p>
-        Saya menyelesaikan pendidikan Sarjana Teknik Informatika di Universitas Indonesia pada tahun 2018-2022.
-        Sebelumnya, saya menempuh pendidikan menengah atas di SMA Negeri 1 Jakarta dari tahun 2015-2018.
+        Saya menyelesaikan pendidikan Sarjana Teknik Informatika di Universitas Islam sultan agung semarang pada tahun 2021-2025.
+        Sebelumnya, saya menempuh pendidikan menengah atas di SMA Negeri 1 Demak dari tahun 2019-2021.
         Pendidikan ini memberikan dasar kuat dalam bidang teknologi dan pengembangan perangkat lunak.
       </p>
     </div>
@@ -436,30 +451,48 @@
         Selain itu, saya tertarik pada Internet of Things (IoT) dan telah mengembangkan beberapa proyek menggunakan sensor dan platform seperti Arduino.
         Saya juga memiliki kemampuan dalam pembelajaran mandiri serta analisis sistem, dan saya senang mendesain antarmuka pengguna yang sederhana namun efektif.
       </p>
+      <a href="sertifikat_dicoding.pdf" target="_blank">
+  📄 Lihat Sertifikat Keahlian
+</a>
+
     </div>
   </section>
 
-  <section class="experience fade-in" id="experience">
-    <h2>Pengalaman</h2>
-    <div class="card">
-      <p>
-        Saya telah mengembangkan berbagai proyek pribadi, termasuk alat deteksi kebisingan menggunakan sensor dan platform Arduino untuk aplikasi IoT.
-        Selain itu, saya memiliki pengalaman dalam membuat website statis untuk klien kecil dengan fokus pada desain responsif dan pengalaman pengguna yang optimal.
-        Pengalaman ini telah membantu saya memahami siklus pengembangan perangkat lunak dari konsep hingga implementasi.
-      </p>
-    </div>
-  </section>
+ <section id="experience" class="fade-in">
+  <h2>Pengalaman</h2>
 
-  <section class="projects fade-in" id="projects">
-    <h2>Proyek</h2>
+  <div class="experience">
     <div class="card">
       <p>
-        Saya telah mengembangkan beberapa proyek menarik, termasuk website portofolio ini yang dibangun dengan HTML, CSS, dan JavaScript untuk interaktivitas.
-        Selain itu, saya memiliki proyek aplikasi IoT untuk memantau suhu dan kelembaban ruangan secara real-time menggunakan ESP32.
-        Proyek-proyek ini menunjukkan kemampuan saya dalam menggabungkan teknologi web dan IoT untuk menciptakan solusi praktis.
+        Saya mengikuti Program MSIB di PT Revolusi Cita Edukasi (RevoU) pada AWS Cloud Data Engineer and Gen AI Track,
+        di mana saya mengembangkan berbagai proyek, termasuk alat deteksi kebisingan berbasis IoT menggunakan sensor dan Arduino.
+        Selain itu, saya memiliki pengalaman dalam pengembangan website statis dengan fokus pada desain responsif dan pengalaman pengguna yang optimal.
       </p>
+         <a href="sertifikat_msib.pdf" target="_blank">
+  📄 Lihat Pengalaman saya
+</a>
     </div>
-  </section>
+  </div>
+</section>
+
+<section id="projects" class="fade-in">
+  <h2>Proyek</h2>
+
+  <div class="projects">
+    <div class="card">
+      <p>
+        Saya telah mengembangkan beberapa proyek menarik, termasuk website portofolio ini yang dibangun dengan HTML, CSS, dan JavaScript.
+        Selain itu, saya memiliki proyek aplikasi IoT untuk memantau kebisingan disebuah ruangan secara real-time menggunakan ESP32.
+        Proyek-proyek ini menunjukkan kemampuan saya dalam menggabungkan teknologi web dan IoT.
+      </p>
+         <a href="jurnal.pdf" target="_blank">
+  📄 Lihat Proyek Saya
+</a>
+    </div>
+  </div>
+
+</section>
+
 
   <section id="contact" class="fade-in">
     <h2>Kontak</h2>
